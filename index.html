@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HEROS Beauty & Lifestyle</title>
+         <link href="https://fonts.google.com/specimen/Black+Ops+One" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+    </head>
+
+    <body>
+        <section id="title">
+            <div class="container-fluid">
+
+            
+        <!---- Nav bar   -->
+        <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">HEROS</a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#cart">Cart (<span id="nav-cart-count">0</span>)</a>
+                <a href="#products" class="shop-btn">Shop Now</a>
+            </div>
+        </nav>
+    </header>
+       <!----     Title  -->
+        <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <p class="hero-tagline">BE BOLD. BE YOU.</p>
+
+                <h1>
+                    HEROS
+                    <span>Beauty & Lifestyle</span>
+                </h1>
+
+                <p class="hero-description">
+                    Discover premium beauty and fashion essentials
+                    designed to make every moment feel exceptional.
+                </p>
+
+                <a href="#products" class="hero-btn">
+                    Shop the Collection
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="title-image">
+                <img src="images/heros title.png"
+                    alt="HEROS beauty and fashion collection">
+            </div>
+
+        </section>
+
+         <!-- SHOPPING BENEFITS -->
+        <section class="benefits">
+
+            <div class="benefit-item">
+                <i class="fa-solid fa-gem"></i>
+                <h3>Premium Quality</h3>
+                <p>Luxury products selected with quality in mind.</p>
+            </div>
+
+            <div class="benefit-item">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Fast Delivery</h3>
+                <p>Convenient delivery for your favourite finds.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Secure Payments</h3>
+                <p>Secure payment options at checkout.</p>
+            </div>
+
+            <div class="benefit-item">
+                <i class="fa-solid fa-headset"></i>
+                <h3>Customer Support</h3>
+                <p>We're here to help with your orders and enquiries.</p>
+            </div>
+
+        </section>
+
+</section>
+</div>
+
+          <!-- PRODUCTS -->
+        <section class="products" id="products">
+
+            <div class="section-heading">
+                <p class="section-eyebrow">THE HEROS EDIT</p>
+                <h2>Our Products</h2>
+                <p>Find your next favourite.</p>
+            </div>
+
+            <div class="product-container">
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/clear gloss.png"
+                            alt="HEROS Rude lip gloss">
+                    </div>
+                    <p class="product-category">BEAUTY</p>
+                    <h3>Rude Gloss</h3>
+                    <p class="product-price">₦12,000</p>
+                      <button class="add-to-cart"
+                        data-id="1"
+                        data-name="Rude Gloss"
+                        data-price="12000"
+                        data-image="images/clear gloss.png">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/handbag.png"
+                            alt="HEROS handbag">
+                    </div>
+                    <p class="product-category">ACCESSORIES</p>
+                    <h3>HEROS Bag</h3>
+                    <p class="product-price">₦45,000</p>
+
+                    <button class="add-to-cart"
+                        data-id="2"
+                        data-name="HEROS Bag"
+                        data-price="45000"
+                        data-image="images/handbag.png">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/vibe.png"
+                            alt="HEROS burgundy heels">
+                    </div>
+                    <p class="product-category">FOOTWEAR</p>
+                    <h3>HEROS Heels</h3>
+                    <p class="product-price">₦10,000</p>
+
+                    <button class="add-to-cart"
+                        data-id="3"
+                        data-name="HEROS Heels"
+                        data-price="10000"
+                        data-image="images/vibe.png">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/perfume.png"
+                            alt="HEROS perfume">
+                    </div>
+                    <p class="product-category">FRAGRANCE</p>
+                    <h3>HEROS Perfume</h3>
+                    <p class="product-price">₦35,000</p>
+
+                    <button class="add-to-cart"
+                        data-id="4"
+                        data-name="HEROS Perfume"
+                        data-price="35000"
+                        data-image="images/perfume.png">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/gloss.png"
+                            alt="HEROS clear lip gloss">
+                    </div>
+                    <p class="product-category">BEAUTY</p>
+                    <h3>Clear Gloss</h3>
+                    <p class="product-price">₦25,000</p>
+
+                    <button class="add-to-cart"
+                        data-id="5"
+                        data-name="Clear Gloss"
+                        data-price="25000"
+                        data-image="images/gloss.png">
+                        Add to Cart
+                    </button>
+                </article>
+
+            </div>
+
+        </section>
+         
+         <!-- ABOUT HEROS -->
+        <section class="about-section" id="about">
+            <div class="about-content">
+                <p class="section-eyebrow">OUR STORY</p>
+                <h2>A Little About HEROS</h2>
+
+                <p>
+                    HEROS brings beauty and fashion together in one place.
+                    From beauty essentials to statement accessories,
+                    our collection celebrates confidence, individuality
+                    and personal style.
+                </p>
+
+                <a href="#products" class="about-btn">
+                    Explore Our Collection
+                </a>
+            </div>
+        </section>
+
+         <!-- NEW ARRIVALS -->
+        <section class="new-arrivals">
+            <p class="section-eyebrow">JUST IN</p>
+            <h2>Discover What's New</h2>
+            <p>Explore the HEROS collection and find something you love.</p>
+            <a href="#products" class="hero-btn">Explore Products</a>
+        </section>
+
+        <!-- SHOPPING CART -->
+        <section class="cart-section" id="cart">
+
+            <div class="section-heading">
+                <p class="section-eyebrow">YOUR SELECTION</p>
+                <h2>My Shopping Cart (<span id="cart-count">0</span>)</h2>
+            </div>
+
+            <div id="cart-items">
+                <p class="empty-cart">Your cart is currently empty.</p>
+            </div>
+             <div class="cart-summary">
+                <h3>Total: ₦<span id="cart-total">0</span></h3>
+                <button id="checkout-btn">Proceed to Checkout</button>
+                <p class="checkout-note">
+                    Checkout and payment options will be available soon.
+                </p>
+            </div>
+
+        </section>
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <h2>Stay in the HEROS Circle</h2>
+            <p>Be the first to hear about new arrivals and special offers.</p>
+
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email"
+                    placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <p id="newsletter-message" aria-live="polite"></p>
+        </section>
+
+    </main>
+
+        <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo">HEROS</a>
+                <p>Beauty, fashion and confidence.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About Us</a>
+                <a href="#cart">Shopping Cart</a>
+            </div> 
+              <div class="footer-links">
+                <h3>Customer Care</h3>
+                <a href="mailto:tonaefe@gmail.com">Contact Us</a>
+                <a href="#footer">Delivery Information</a>
+                <a href="#footer">Privacy Policy</a>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow HEROS</h3>
+                <!-- Replace # with your actual social media profile links -->
+                <a href="heros" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="aniciana" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+ 
+                  </a>
+                <a href="tessy" aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 HEROS Beauty & Lifestyle. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  
+   
+   
+                </body>
+
+</html>
